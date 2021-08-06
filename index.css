@@ -1,0 +1,29 @@
+h1,h3{
+    text-align: center;
+}
+.cart-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: var(--base-padding);
+  }
+
+.price:before {
+  content: 'R ';
+}
+  h1, h2, h3 {
+    font-family: var(--fancy-font-family);
+    font-weight: 400;
+    margin: 1rem auto;
+  }
+  
+  .image{
+    max-width: 100px;
+    
+    
+  }
+  img {
+    animation: .5s shake-product-image;
+  }
+body{
+  background-color: #cccccc;
+}

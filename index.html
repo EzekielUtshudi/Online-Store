@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Shoe Store</title>
+</head>
+<body>
+    <div class="container">
+        <div class="page-header">
+            <hr> <h1>Online Store</h1><hr>
+
+             <div class="product">
+                 <p>Here are some adjectives for shoes: silly high-heeled, tight,
+                      high-heeled, nice well-made, brown wing-tip, such high-heeled, 
+                      green high-heeled, coarse low-heeled, vicious sequined, 
+                      clumsy, greasy, smart tan, handmade italian, biliously yellow, 
+                      stout comfortable, 
+                     neat sandal, own sandal, high-heeled local, high-heeled </p>
+             </div>
+
+             <div class="product">
+                <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFkUowM8JkuuK3NTJDg55-vx_1jOFytsK9FB62VQ3wZ-5YBnJY-J0sKM2UeSC3eHY3YI4&usqp=CAU" alt="Adidas Superstar">
+                <h2 class="brand">Superstar Adidas</h2>
+                <h3 class="price">900.00</h3>
+                <button class="btn btn-danger" data-action="ADD_TO_CART">Add To Bag </button>
+            </div>
+            <div class="product">
+                <img class="image" src="data:image/jpeg;base64,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" alt="Nike Airforce">
+                <h2 class="brand">Nike Air force</h2>
+                <h3 class="price">849.00</h3>
+                <button class="btn btn-danger" data-action="ADD_TO_CART">Add To Bag </button>
+            </div>
+            <div class="product">
+                <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy-d0mALoWn6mFn-KMC8-NF_hcoHWlvUlPsw&usqp=CAU" alt="">
+                <h2 class="brand">Timberland</h2>
+                <h3 class="price">1650.00</h3>
+                <button class="btn btn-danger" data-action="ADD_TO_CART">Add To Bag </button>
+            </div>
+            <div class="product">
+                <img class="image" src="data:image/jpeg;base64,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" alt="le coq">
+                <h2 class="brand">Le Coq</h2>
+                <h3 class="price">1299.00</h3>
+                <p>LE COQ SPORTIF
+                    This is the story of a different kind of brand, a story unlike any other... It starts in 1882 with the opening of a little hosiery store in Romilly-sur-Seine, in a part of the Champagne region called the Aube. Emile Camuset, the man who opened that store, loved sports with a fierce passion. When he started making sports jersey in his small workshop, he probably never dreamed that, 130 years later, le coq sportif would become one of the world´s most prestigious brands, renowned for its clothing, footwear and sporting equipment.</p>
+                <button class="btn btn-danger" data-action="ADD_TO_CART">Add To Bag </button>
+            </div>
+            <div class="product">
+                <img class="image" src="data:image/jpeg;base64,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" alt="Reebok">
+                <h2 class="brand">Reebok</h2>
+                <h3 class="price">599.00</h3>
+                <p> Reebok shoes is very good. Some of the most cushioned and comfortable shoes would any of their walking shoes. </p>
+                <button class="btn btn-danger" data-action="ADD_TO_CART">Add To Bag </button>
+            </div>
+            <div class="product">
+                <img class="image" src="https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa1e973d6/original/90_DSU8094-D15TCG_D4D_20_TrigrecaTrainers-TrigrecaSneakers-versace-online-store_5_3.jpg?sw=748&sh=1050&sm=fit" alt="">
+                <h2 class="brand">Versace</h2>
+                <h3 class="price">1299.00</h3>
+                <button class="btn btn-danger" data-action="ADD_TO_CART">Add To Bag </button>
+            </div>
+
+            <div class="product">
+                <img class="image" src="https://cdn-images.farfetch-contents.com/13/59/98/66/13599866_21590287_1000.jpg" alt="Dolce & Gabbana">
+                <h2 class="brand">Dolce & Gabbana</h2>
+                <h3 class="price">3500.00</h3>
+                <p>If you’re going to do casual, you may as well make it worth looking at.
+                     Dolce & Gabbana are the perfect go-to for sports-inspired styling with a luxurious finish. Crafted from leather, 
+                     these red, black and white Super King low-top sneakers from Dolce & Gabbana feature a pull tab at the rear,
+                      a logo patch at the tongue, a lace-up front fastening, a round toe, raised branding to the heel,
+                       a panelled design and a split rubber sole with ridges and block shapes.
+
+                    Made in Italy</p>
+                <button class="btn btn-danger" data-action="ADD_TO_CART">Add To Bag </button>
+            </div>
+
+            <div class="product">
+                <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStyqFR4QqX-wPInihcoU15jRw40KtJaYPQaaoJr1h_7q6mExAv0wPLAhfJacRXOdw7s_c&usqp=CAU" alt="Converse x Bandulu Pro">
+                <h2 class="brand">Converse x Bandulu Pro</h2>
+                <h3 class="price">999.00</h3>
+                <p>Converse x Bandulu Pro Leather High Top
+                    THE REAL ART OF FAKING.
+                    
+                    This collaboration sits at the intersection of art and sport: Bandulu’s street luxury aesthetic meets Converse’s classic basketball heritage.</p>
+                <button class="btn btn-danger" data-action="ADD_TO_CART">Add To Bag </button>
+            </div>
+            
+            <div class="product">
+                <img class="image" src="https://cdn.cliqueinc.com/posts/280098/shoe-brands-spiking-google-trends-280098-1558571271078-main.700x0c.jpg" alt="">
+                <h2 class="brand">Champion Max</h2>
+                <h3 class="price">899.00</h3>
+                <p>Champion is not a high end clothing brand. That is not a matter of opinion,
+                     it's a matter of fact. Their quality,
+                     price points, brand are not made for the high end market.
+                      They have recently gained some steam and teamed up with relevant designers,
+                       however, that does not make them a high end brand.</p>
+                <button class="btn btn-danger" data-action="ADD_TO_CART">Add To Bag </button>
+            </div>
+            
+
+
+
+
+
+
+
+
+
+
+
+              <!-- the discount coupon-->
+              <hr>
+				<div class="discount-grid">
+					<div class="discount-section">
+						<div class="discount-action">
+							<span id="error-msg-span" class="error-message">
+							
+							</span> <span></span><input type="text"
+								class="discount-code" id="discountCode"
+								name="discountCode" size="15"
+								placeholder="Enter Coupon Code" /><button
+								id="btnDiscountAction" type="submit"
+								onclick="validate()" class="btn btn-success btn-sm">Apply Discount</button>
+						</div>
+					</div>
+				</div>
+				<form action="discount" id="coupon">
+				    <div class="container">
+					<h2><b>30% OFF YOUR PURCHASE</b></h2> 
+					<p>Use your coupon code below to get your discount.</p>
+					<p>Use Promo Code: <span class="promo">HOP453<span></p>
+				    <p class="expire">Expires: 10 June, 2021</p>
+				</form>
+				</div>
+				<div id="finishOrderDialog" title="Confirm Order">
+					<div id="finalOrderList"><hr>
+					  <h3>Your Orders:</h3><hr>
+					  
+					</div>
+					<div id="buyerInfo">
+					  <input type="text" id="buyerName" placeholder="Enter Name">
+					  <input type="text" id="buyerNumber" placeholder="Enter Phone Number">
+					  <input type="text" id="buyerAddress" placeholder="Enter Address">
+					  <button class="btn-info" onclick="collect()">Collect</button>
+					  <button class="btn-info" onclick="deliver()">Delivery</button>
+					</div><hr>
+				  </div>
+			  
+				  <div id="thanksMessage">
+					<h1>Thank you for the order</h1>
+					<h3>We will have it delivered soon</h3>
+				  </div>
+				
+			</div>
+
+			
+		</section>
+
+		<section class="section">
+			<h2 class="text-center">In The Bag</h2>
+			<div class="cart"></div>
+		</section>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+    <script src="index.js"></script>
+
+    <footer>
+        <div class="footer">
+            <nav>
+
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
