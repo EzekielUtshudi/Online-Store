@@ -28,6 +28,10 @@
 
 <br>
 
+## : Usage ##
+<img alt="usagepic" src="![Usage 1](https://user-images.githubusercontent.com/81693905/135151298-bdf80d9d-e8f1-4329-8ee3-6d79ff7337ea.png)>
+
+
 ## : About ##
 The Online store is an E-commerce store,
 E-commerce store easily coded with HTML,CSS and Javascript which basically allows you to select products ,quantity and choose between delivery and collection.
